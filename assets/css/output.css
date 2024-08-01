@@ -765,12 +765,12 @@ video {
   display: inline-flex;
 }
 
-.table{
-  display: table;
-}
-
 .\!table{
   display: table !important;
+}
+
+.table{
+  display: table;
 }
 
 .inline-table{
@@ -1957,6 +1957,10 @@ video {
      object-fit: scale-down;
 }
 
+.p-1{
+  padding: 0.25rem;
+}
+
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -2324,6 +2328,10 @@ video {
 .outline-none{
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.\!outline{
+  outline-style: solid !important;
 }
 
 .outline{
